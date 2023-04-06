@@ -1,0 +1,22 @@
+.board {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.board canvas {
+    position: absolute;
+}
+
+.box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid blue;
+}
